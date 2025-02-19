@@ -18,7 +18,7 @@ async function fetchWeather() {
     document.getElementById("humidity").textContent = data.main.humidity;
     document.getElementById("windSpeed").textContent = data.wind.speed;
 
-    // Change weather icon based on condition
+   
     const weatherIcon = document.getElementById("weather-icon");
     const weatherCondition = data.weather[0].main.toLowerCase();
 
